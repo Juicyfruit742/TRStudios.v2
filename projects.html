@@ -11,9 +11,9 @@
     <link href="css/my_styles.css" rel="stylesheet">
   </head>
  <body>
-   <div class="container-fluid">
+   <div class="container-fluid"> <!---navigation start----->
      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+        <div class="container"> <!---navigation container start----->
             <div class="navbar-header">
                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
                    <span class="sr-only">Toggle navigation</span>
@@ -31,15 +31,15 @@
                    <li><a href="contact.html">Contact Us</a></li>
                  </ul>
                </div>
-             </div>
-         </div>
+             </div> <!---navigation container end----->
+         </div>  <!---navigation end----->
             <div class="container">
             <div>
                 <h1 class="text-center contactHeader"> Our Projects </h1>
                 <h2 class="text-center lead contactColor">Take a look around</h2>
                 <h3  class="projectHeader"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Photos </h3>
             </div>
-           <div class="lightboxContainer">
+           <div class="lightboxContainer">  <!--- lightbox start----->
                 <div class="lightbox-gallery">
                         <div><img src="img/DSC00154%20copy.JPG" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, quae, quam. "></div>
                         <div><img src="img/DSC00163%20copy.JPG" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus officiis dignissimos doloribus consectetur harum eos sapiente optio aut minima."></div>
@@ -51,15 +51,14 @@
                         <div><img src="img/IMG_five%20copy.JPG" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. "></div>
                         <div><img src="img/IMG_three%20copy.JPG" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. "></div>
                 </div>
-	          </div>
+	          </div>  <!--- lightbox start----->
             </div>
-<!--           <div class="contentBreak"></div>-->
-            <div class="container text-center">
+            <div class="container text-center">  <!--- video container start----->
                <div>
                     <h3  class="projectHeader"><span class="glyphicon glyphicon glyphicon-film" aria-hidden="true"></span> Videos </h3>
                 </div>
                     <div class="row">
-                    <div class="col-lg-6 text-center">
+                    <div class="col-lg-6 text-center"> <!--- video one start----->
                       <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MOvIPMggnpA"></iframe>
                       </div>
@@ -72,8 +71,8 @@
                         </button>
                         <h3>A Timelapse Short</h3>
                       </div>
-                    </div>
-                    <div class="col-lg-6 text-center">
+                    </div>  <!--- video one end----->
+                    <div class="col-lg-6 text-center">  <!--- video two start----->
                       <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xgYFUSl4fzE"></iframe>
                       </div>
@@ -86,20 +85,20 @@
                         </button>
                         <h3>A Haylands Short</h3>
                       </div>
-                     </div>
+                     </div>  <!--- video two end----->
                     </div>
-                </div>
+                </div>   <!--- video container end----->
                 <div>
                   <h3 class="text-center checkBack">Check back for more content!</h3>
                 </div>
-                  <div class="container">
+                  <div class="container"> <!--- social media footer start--->
                      <div class="wrapper">
                             <i class="fa fa-5x fa-facebook-square"></i>
                             <i class="fa fa-5x fa-twitter-square"></i>
                             <i class="fa fa-5x fa-instagram"></i>
                             <i class="fa fa-5x fa-snapchat-square"></i>
                      </div>
-                  </div>
+                  </div> <!--- social media footer end--->
          
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>   
      <script>(function(){var a=$("<div class='lightbox'></div>"),c=$("<img>"),d=$("<p class='caption'></p>");a.append(c).append(d);$("body").append(a);$(".lightbox-gallery img").click(function(b){b.preventDefault();b=$(this).attr("src");var e=$(this).attr("alt");c.attr("src",b);d.text(e);a.fadeIn("fast");a.click(function(){a.fadeOut("fast")})})})();</script>
