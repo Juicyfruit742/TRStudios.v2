@@ -172,6 +172,7 @@ i {
 .welcomeHeader {
     background-color: #EEE5DE;
     margin-top: -30px;
+    margin-bottom: 0;
     padding: 35px 10px;
     letter-spacing: 5px;
     font-weight: 500;
