@@ -20,6 +20,10 @@ body {
     margin-top: -44px;
 }
 
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    width:100%;
+}
+
 .containerWidth {
     max-width: 1100px;
     margin: 0 auto;
